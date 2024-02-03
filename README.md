@@ -34,9 +34,6 @@ Effortlessly extracts text from images and documents, transforming it into spoke
 
 Utilizes advanced facial recognition technology to identify familiar faces captured by the camera, announcing their names to the user, fostering a more personalized and socially engaging experience.
 
-## Project Architecture
-
-[Insert Project Architecture Diagram/Description]
 
 ## Purpose
 
