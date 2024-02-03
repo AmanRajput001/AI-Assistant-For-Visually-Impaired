@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#98A3DF"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <!-- App Name Header -->
+
+    <!-- Main Text -->
+
+    <TextView
+        android:id="@+id/appNameHeader"
+        android:layout_width="235dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Brighten Up  "
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.296"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mainText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:background="#F3000000"
+        android:contentDescription="Text"
+        android:fontFamily="serif-monospace"
+        android:gravity="top|start"
+        android:text="\n\tInstructions:- \n\n 1. If you want to ask any questions, triple-tap the screen to enable the microphone and then ask me your question.
+                             \n\n 2. To enable Object Recognition say \n'Open Object Recognition.'
+                             \n\n 3. To enable Text Recognition say \n'Open Text Recognition.'
+                             \n\n 4. To enable Face Recognition say \n'Open Face Recognition.'\n"
+        android:textAlignment="textStart"
+        android:textColor="#E9FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:autoSizeTextType="uniform"
+    app:autoSizeMinTextSize="15sp"
+    app:autoSizeMaxTextSize="20sp"
+    app:layout_constraintTop_toBottomOf="@id/appNameHeader"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
