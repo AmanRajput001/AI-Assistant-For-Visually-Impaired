@@ -8,7 +8,7 @@ Visually impaired individuals face unique challenges when using existing Android
 
 The app will consolidate essential features, focusing on improving accessibility for visually impaired users. Here's a comparison with existing apps:
 
-| Existing Apps       | Voice Interaction | Object Recognition | Text Recognition | Face Recognition | Voice Control |
+| Existing Apps       | Speaking Ability | Object Recognition | Text Recognition | Face Recognition | Voice Interaction |
 |----------------------|-------------------|---------------------|-------------------|-------------------|-------------------|
 | Envision AI           | Yes               | Yes                 | Yes               | Yes               | No               |
 | Tap Tap See           | Yes               | No                  | Yes               | No                | No               |
